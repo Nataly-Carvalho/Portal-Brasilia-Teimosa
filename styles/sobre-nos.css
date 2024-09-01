@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+
+.fontNav {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.bg {
+    background-color: #264653;
+}
+
+.bg2 {
+    background-color: #FDF5E6;
+}
+
+.bg3 {
+    background-color: #7B929B;
+}
+
+.imagem {
+    border-radius: 30%;
+    width: 50%;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+
+.imgdevelopers {
+    border-radius: 20%;
+    width: 30%;
+}
+
+
+video {
+    margin-top: 15%;
+    border-radius: 30%;
+    width: 50%;
+    height: auto;
+}
+
+
+.titulo{
+    color: #f9f9f9;
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 30px;
+    margin-left: 20%;
+}
+
+.titulo2 {
+    color: #2A9D8F;
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 30px;
+    margin-left: 20%;
+}
+.text{
+    margin-right: 15%;
+    text-align: justify;
+    font-family: "Abhaya Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+}
+.text2{
+    text-align: justify;
+    margin-left: 6%;
+    font-family: "Abhaya Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.cent{
+    justify-content: center;
+}
+.icon{
+    font-size: 22px;
+    margin-left: 3%;
+    text-decoration: none;
+}
+
+.abhaya-libre-regular {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.abhaya-libre-medium {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.abhaya-libre-semibold {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.abhaya-libre-bold {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.abhaya-libre-extrabold {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 30px;
+}
+
+/*Dark mode*/
+
+.dark-mode .containerform {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .bgNav,
+.dark-mode .navbar {
+    background-color: #1f1f1f;
+}
+
+.dark-mode .bgtext,
+.dark-mode .bgtext2 {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+.dark-mode .btn,
+.dark-mode .nav-link,
+.dark-mode .dropdown-item {
+    color: #ffffff;
+}
+
+.dark-mode .btn {
+    background-color: #333;
+}
+
+
+/*Footer*/
+
+.footer {
+    background-color: #e76f51;
+    color: white;
+    text-align: center;
+}
+
+.footer .footer-top {
+    background-color: #e76f51;
+    padding: 10px 0;
+}
+
+.footer .footer-top img {
+    max-width: 100px;
+}
+
+.footer .footer-bottom {
+    background-color: #333;
+    padding: 3px 0;
+}
+
+.image {
+    width: 50%;
+    ;
+}
