@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
 
-.fontNav {
+.navbar {
     font-family: "Abhaya Libre", serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 17px;
+    font-size: 20px;
 }
+
 
 .bg {
     background-color: #264653;
@@ -17,6 +18,13 @@
 
 .bg3 {
     background-color: #7B929B;
+}
+.historiaTitulo{
+    font-family: "Abhaya Libre", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+
 }
 
 .imagem {
@@ -39,7 +47,6 @@ video {
     height: auto;
 }
 
-
 .titulo{
     color: #f9f9f9;
     font-family: "Abhaya Libre", serif;
@@ -57,8 +64,16 @@ video {
     font-size: 30px;
     margin-left: 20%;
 }
+.historia{
+    text-align: justify;
+    font-family: "Abhaya Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+
+}
 .text{
-    margin-right: 15%;
+    margin-right: 10%;
     text-align: justify;
     font-family: "Abhaya Libre", serif;
     font-weight: 400;
@@ -113,33 +128,29 @@ video {
     font-style: normal;
     font-size: 30px;
 }
-
 /*Dark mode*/
-
-.dark-mode .containerform {
-    background-color: #121212;
-    color: #ffffff;
-}
-
 .dark-mode .bgNav,
-.dark-mode .navbar {
+.dark-mode .navbar,
+.dark-mode .bg,
+.dark-mode .bg3,
+.dark-mode .bg2,
+.dark-mode body,
+.dark-mode{
     background-color: #1f1f1f;
 }
 
 .dark-mode .bgtext,
-.dark-mode .bgtext2 {
+.dark-mode .bgtext2,
+.dark-mode .historia,
+.dark-mode .bg2,
+.dark-mode .bg3,
+.dark-mode .bg,
+.dark-mode body,
+.dark-mode .historiaTitulo,
+.dark-mode .text,
+.dark-mode .text2{
     background-color: #1f1f1f;
     color: #ffffff;
-}
-
-.dark-mode .btn,
-.dark-mode .nav-link,
-.dark-mode .dropdown-item {
-    color: #ffffff;
-}
-
-.dark-mode .btn {
-    background-color: #333;
 }
 
 
