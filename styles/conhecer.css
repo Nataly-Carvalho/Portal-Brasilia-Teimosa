@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+
+.bgNav {
+    background-color: #264653;
+}
+.nav-i{
+    font-family: "Abhaya Libre", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+.abhaya-libre-regular {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.abhaya-libre-medium {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.abhaya-libre-semibold {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.abhaya-libre-bold {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.abhaya-libre-extrabold {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.text {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-align: justify;
+
+}
+.footer {
+    background-color: #e76f51;
+    color: white;
+    text-align: center;
+}
+
+.footer .footer-top {
+    background-color: #e76f51;
+    padding: 10px 0;
+}
+
+.footer .footer-top img {
+    max-width: 100px;
+}
+
+.footer .footer-bottom {
+    background-color: #333;
+    padding: 3px 0;
+}
+
+.bg {
+    background-color: #FDF5E6;
+}
+
+/*Dark mode*/
+.dark-mode .bgNav,
+.dark-mode .navbar,
+.dark-mode body,
+.dark-mode{
+    background-color: #1f1f1f;
+}
+
+.dark-mode body,
+.dark-mode .row{
+
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
