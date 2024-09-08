@@ -75,21 +75,22 @@
     width: 100px;
     height: 500px;
     margin: 20px;
-    
+
 }
 
-.carousel-item hr{
+.carousel-item hr {
     margin-left: 100px;
-    margin-right: 100px ;
+    margin-right: 100px;
 }
-.carousel-item p{
+
+.carousel-item p {
     margin-right: 50px;
     margin-left: 50px;
 }
 
 .carousel-inner {
     padding: 20px;
-    
+
 }
 
 .content2 {
@@ -256,18 +257,18 @@ html {
 /*Dark mode*/
 
 .dark-mode .containerform {
-    background-color: #1f1f1f;
+    background-color: #2c2828;
     color: #ffffff;
 }
 
 .dark-mode .bgNav,
 .dark-mode .navbar {
-    background-color: #1f1f1f;
+    background-color: #2c2828;
 }
 
 .dark-mode .bgtext,
-.dark-mode .bgtext2{
-    background-color: #1f1f1f;
+.dark-mode .bgtext2 {
+    background-color: #2c2828;
     color: #ffffff;
 }
 
@@ -276,7 +277,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom, #1f1f1f 50%, #1f1f1f 50%);
+    background: linear-gradient(to bottom, #2c2828 50%, #2c2828 50%);
 
 }
 
@@ -289,4 +290,127 @@ html {
 
 .dark-mode .btn {
     background-color: #333;
+}
+
+@media (max-width: 768px) {
+    .carousel-item {
+        background-color: #FDF5E6;
+        border-radius: 52px;
+        overflow: hidden;
+        margin-top: 150px; /* Aumentar a margem superior */
+        box-shadow: 4px 4px 8px rgba(0.2, 0.2, 0.2, 0.2);
+        position: relative; /* Certifique-se de que o posicionamento é relativo */
+    }
+    
+    .half-gradient-background {
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to bottom, #264653 50%, #FDF5E6 50%);
+        padding-top: 350px;
+        padding-bottom: 350px;
+    }
+    
+
+    .carousel-item img {
+        width: 50%;
+        height: 50px;
+        margin-top: 30px;
+        max-width: 100%;
+    }
+
+    .carousel-item hr {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .carousel-item p {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .content2 {
+        width: 90%;
+    }
+
+    .images {
+        display: none;
+    }
+
+    .images img {
+        display: none;
+    }
+    .containerform {
+           margin-top: -150px !important; /* Reduzindo o espaço apenas em telas menores que 576px */
+        margin-bottom: -150px !important; /* Reduzindo o espaço apenas em telas menores que 576px */
+    }
+
+}
+
+/* Estilos responsivos para dispositivos móveis */
+@media (max-width: 480px) {
+    .half-gradient-background {
+        height: 200px;
+    }
+
+    .carousel-item {
+        margin-top: 20px;
+    }
+
+    .carousel-item img {
+        height: 200px;
+        margin: 10px;
+        width: 100%;
+    }
+
+    .carousel-item hr {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .carousel-item p {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .content2 {
+        width: 95%;
+        padding: 10px;
+    }
+    .images {
+        display: none;
+    }
+
+    .images img {
+        display: none;
+    }
+    .carousel-item {
+        background-color: #FDF5E6;
+        border-radius: 52px;
+        overflow: hidden;
+        margin-top: 150px; /* Aumentar a margem superior */
+        box-shadow: 4px 4px 8px rgba(0.2, 0.2, 0.2, 0.2);
+        position: relative; /* Certifique-se de que o posicionamento é relativo */
+        margin-top: 30px;
+        max-width: 100%;
+    }
+    hr{
+        display: none;
+    }
+    
+    .half-gradient-background {
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #264653;
+        padding-top: 300px;
+        padding-bottom: 350px;
+
+    }
+    .containerform {
+        margin-top: -150px !important; /* Reduzindo o espaço apenas em telas menores que 576px */
+        margin-bottom: -150px !important; /* Reduzindo o espaço apenas em telas menores que 576px */
+    }
 }

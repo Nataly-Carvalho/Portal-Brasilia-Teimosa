@@ -2,8 +2,6 @@
 
 .bgNav {
     background-color: #264653;
-}
-.nav-i{
     font-family: "Abhaya Libre", serif;
     font-weight: 700;
     font-style: normal;
@@ -77,13 +75,13 @@
 .dark-mode .navbar,
 .dark-mode body,
 .dark-mode{
-    background-color: #1f1f1f;
+    background-color: #2c2828;
 }
 
 .dark-mode body,
 .dark-mode .row{
 
-    background-color: #1f1f1f;
+    background-color: #2c2828;
     color: #ffffff;
 }
 
