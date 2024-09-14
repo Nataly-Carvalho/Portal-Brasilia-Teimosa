@@ -52,13 +52,18 @@
 }
 
 
-video {
+.video {
     margin-top: 15%;
-    border-radius: 100%;
+    border-radius:20%;
     width: 50%;
-    height: 600px;
+    height:500px;
 }
 
+.video2 {
+    margin-top: -10px;
+    width: 50%;
+    height:500px;
+}
 .titulo{
     color: #f9f9f9;
     font-family: "Abhaya Libre", serif;
