@@ -349,7 +349,7 @@ html {
 }
 
 /* Estilos responsivos para dispositivos móveis */
-@media (max-width: 480px) {
+@media (max-width: 480px)  {
     .half-gradient-background {
         height: 200px;
     }
